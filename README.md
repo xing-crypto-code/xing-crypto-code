@@ -40,25 +40,11 @@
   About Me
 </h2>
 
-<pre align="center">
-#include &lt;life.h&gt;
-
-typedef struct {
-    char* name;
-    char* background;
-    char* current_focus;
-    char* motto;
-} Engineer;
-
-Engineer me = {
-    .name = "xing-crypto-code",
-    .background = "English Major to Electronics Engineering",
-    .current_focus = "Embedded Systems | Drones | AI Agent",
-    .motto = "Even stepping back is a form of progress"
-};
-
-//退步原来是向前
-</pre>
+<p align="center">
+  <b>电子爱好者 | Electronics Enthusiast</b><br>
+  努力向电控全栈嵌入式硬件工程师靠拢<br>
+  Striving to become a full-stack embedded hardware engineer in electronic control
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/English-CET6%20High%20Score-00FF41?style=for-the-badge&logo=bookstack&logoColor=white&labelColor=0D1117" alt="CET6" />
@@ -156,18 +142,24 @@ Engineer me = {
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=500&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&lines=Clone+Drone+%E2%9C%85;Modify+%26+Optimize+%E2%86%92;DIY+Flight+Controller+Board+%E2%86%92;DIY+Firmware+%E2%86%92;Fully+Custom+Design+%F0%9F%9A%80&repeat=true" alt="Roadmap" />
 </p>
 
-<h2 align="center">Now Playing</h2>
+<h2 align="center">Music while coding</h2>
 
 <p align="center">
-  <a href="https://open.spotify.com/user/YOUR_SPOTIFY_USERNAME">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_USERNAME&cover_image=true&theme=novatorem&show_offline=false&background_color=0D1117&interchange=true&bar_color=00FF41&bar_color_cover=false" alt="Spotify Now Playing" />
+  <a href="https://open.spotify.com/track/1vYX6E3w5TrkNP4jdiRqvx">
+    <img src="https://img.shields.io/badge/🎵_Luv_Letter_▁▂▃▄▅▆▇-DJ_Okawari-00FF41?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Luv Letter" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://open.spotify.com/track/6zQ1OjnGS4h5MhBK6ZOY6y">
+    <img src="https://img.shields.io/badge/🎹_Flower_Dance_▇▆▅▄▃▂▁-DJ_Okawari-008F11?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0D1117" alt="Flower Dance" />
   </a>
 </p>
 
 <h2 align="center">Quote of the Day</h2>
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=退步原来是向前&author=布袋和尚" alt="Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote" />
 </p>
 
 <!-- 页脚 -->
