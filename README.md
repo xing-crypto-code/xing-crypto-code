@@ -15,23 +15,45 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=200&section=header&text=FLIGHT%20CONTROLLER&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35" alt="header" />
 </p>
 
-<!-- ASCII 艺术 - 无人机 -->
+<!-- ASCII 艺术 - FPV 穿越机 (俯视图) -->
 <pre align="center">
-       \.
-        \'.      ;'.
-         \ '. ,.-'.-'"'"'-.
-          \-.'          '.      ___  _  _  ___  ___  ___
-           \'.            '.    | __|| || || _ \/ __|| __|
-            \ '.-"""'-.,-""'    | _| | __ ||   /\__ \| _|
-             \'.        '.    |___||_||_||_|_\|___/|___|
-              \ '.        '.
-               \  '-.       '.
-                \     '.      ) 
-                 \      '.   /
-                  \       './
-                   \        /
-                    '-._   /
-                        '-'
+                    ▲  F R O N T  ▲
+                           │
+                           │
+     ╭───────────╮         │         ╭───────────╮
+     │    ╲│╱    │         │         │    ╲│╱    │
+     │   ──●──   │         │         │   ──●──   │
+     │    ╱│╲    │         │         │    ╱│╲    │
+     ╰─────┬─────╯         │         ╰─────┬─────╯
+        M1  CW             │            M2  CCW
+            ╲              │              ╱
+             ╲             │             ╱
+              ╲       ┌────┴────┐       ╱
+               ╲      │   FC    │      ╱
+                ╲─────┤  STM32  ├─────╱
+                      │  4-in-1 │
+                ╱─────┤   VTX   ├─────╲
+               ╱      └────┬────┘      ╲
+              ╱            │            ╲
+             ╱             │             ╲
+            ╱              │              ╲
+        M3  CCW            │            M4  CW
+     ╭─────┬─────╮         │         ╭─────┬─────╮
+     │    ╲│╱    │         │         │    ╲│╱    │
+     │   ──●──   │         │         │   ──●──   │
+     │    ╱│╲    │         │         │    ╱│╲    │
+     ╰───────────╯         │         ╰───────────╯
+                           │
+                           │
+                  ═════════╧═════════
+                      VTX ANTENNA
+                     ▼  R E A R  ▼
+
+   5" FPV RACING QUAD  ·  220mm Carbon Frame  ·  X Configuration
+   2207 2450KV Motors  ·  51466 Tri-Blade Props  ·  M1/M3 CW  M2/M4 CCW
+   STM32 F7 Flight Controller  ·  MPU6000 IMU  ·  BMP280 Baro
+   45A 4-in-1 ESC  ·  DShot600  ·  5.8GHz VTX  ·  RunCam 1200TVL @ 30°
+   4S 1500mAh LiPo  ·  XT60  ·  ELRS 2.4GHz RX  ·  AUW ~650g
 </pre>
 
 <!-- 个人简介 -->
