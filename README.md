@@ -5,14 +5,12 @@
 
 <br/>
 
-<!-- 🌙 实时月相 + 🚪 访问计数（并排，无边框） -->
-<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="130" valign="middle" alt="Moon Phase" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- 🚪 访问计数 -->
 <img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="440" valign="middle" alt="Visitors" />
 
 <br/>
 
-<sub>🌙 moon phase &nbsp;·&nbsp; 🚪 visitors</sub>
+<sub>🚪 visitors</sub>
 
 </div>
 
@@ -110,5 +108,21 @@
 <br/>
 
 <sub>Built with passion and lots of coffee ☕</sub>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     🌙 实时月相 · 页面结尾
+     ═══════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<br/>
+
+<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="150" alt="Moon Phase" />
+
+<br/>
+
+<sub>🌙 real-time moon phase · 实时月相</sub>
 
 </div>
