@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-label="DSH Desktop">
-  <rect width="80" height="80" rx="16" fill="#0D1117"/>
-  <rect x="0.5" y="0.5" width="79" height="79" rx="15.5" fill="none" stroke="#0969DA" stroke-opacity=".35"/>
-  <g fill="none" stroke="#0969DA" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M24 52 L24 30 L40 44 L56 30 L56 52"/>
-  </g>
-  <circle cx="24" cy="24" r="3" fill="#58A6FF"/>
-  <circle cx="56" cy="24" r="3" fill="#58A6FF"/>
-</svg>
