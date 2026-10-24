@@ -234,12 +234,14 @@ def fetch_total_contributions(user):
 
 
 def fetch_lines_of_code(user):
-    """统计公开非 fork 仓库的代码规模（当前快照行数）。
+    """统计公开非 fork 仓库的代码行数。
 
-    不累加 code_frequency 的 additions-deletions：
-    该端点会把仓库首次导入时的整个代码库记为「一周新增」，
-    导致结果虚高几个数量级（实测 850 万行）。
-    改为取每个仓库当前的语言字节数换算行数，更贴近真实规模。
+    用 code_frequency 的 (additions - deletions) 净和：它按周记录真实 diff，
+    净和 ≈ 当前代码规模。
+
+    不能用 /languages 的字节数换算——GitHub 把所有文本文件都算作语言字节，
+    包括生成的大 SVG、JSON、锁文件等，实测会虚高到 700 万行以上。
+    同时排除个人 profile 仓库（内容是 README 和自动生成的 SVG，不算代码）。
     """
     total = 0
     try:
@@ -251,18 +253,23 @@ def fetch_lines_of_code(user):
     for repo in repos:
         if repo.get("fork"):
             continue
-        owner, name = repo["owner"]["login"], repo["name"]
+        name = repo["name"]
+        # 跳过 profile 仓库本身
+        if name.lower() == user.lower():
+            continue
+        owner = repo["owner"]["login"]
         try:
-            langs = rest(f"/repos/{owner}/{name}/languages")
+            stats = rest(f"/repos/{owner}/{name}/stats/code_frequency")
+            if not stats:
+                continue
+            for week in stats:
+                total += week[1] - week[2]
         except HTTPError as exc:
             if exc.code not in (403, 404):
                 print(f"  ! {name}: {exc}", file=sys.stderr)
-            continue
-        except Exception:
-            continue
-        # 代码平均每行约 40 字节（含缩进与空行）
-        total += int(sum(langs.values()) / 40)
-    return total
+        except Exception as exc:
+            print(f"  ! {name}: {exc}", file=sys.stderr)
+    return max(0, total)
 
 
 # ────────────────────────── 生成区块 ────────────────────────────
@@ -303,7 +310,7 @@ def block_daily(dates):
             "<tr>"
             f'<td align="left">{name}</td>'
             f'<td align="right">{count}</td>'
-            f'<td align="left"><code>{bar(pct, 16)}</code> {pct}%</td>'
+            f'<td align="left"><code>{bar(pct, 14)}</code> {pct}%</td>'
             "</tr>"
         )
     table = (
@@ -313,7 +320,8 @@ def block_daily(dates):
         + "".join(rows)
         + "</tbody></table>"
     )
-    return f"**{title}**<br/>{table}"
+    # 注意：HTML 表格块内的 Markdown 不会被 GitHub 解析，必须用 <b> 而非 **
+    return f"<b>{title}</b><br/>{table}"
 
 
 def block_weekly(dates):
@@ -333,7 +341,7 @@ def block_weekly(dates):
             "<tr>"
             f'<td align="left">{name}</td>'
             f'<td align="right">{count}</td>'
-            f'<td align="left"><code>{bar(pct, 16)}</code> {pct}%</td>'
+            f'<td align="left"><code>{bar(pct, 14)}</code> {pct}%</td>'
             "</tr>"
         )
     table = (
@@ -343,7 +351,8 @@ def block_weekly(dates):
         + "".join(rows)
         + "</tbody></table>"
     )
-    return f"📅 **I'm Most Productive on {best}s**<br/>{table}"
+    # HTML 表格块内 Markdown 不解析，用 <b> 标签
+    return f"📅 <b>Most Productive on {best}s</b><br/>{table}"
 
 
 # ────────────────────────── 写入 README ─────────────────────────

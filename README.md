@@ -5,10 +5,15 @@
 
 <br/>
 
-<!-- 🌙 实时月相 + 🚪 访问计数（并排） -->
-<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="96" valign="middle" alt="Moon Phase" />
-&nbsp;&nbsp;&nbsp;
-<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="300" valign="middle" alt="Visitors" />
+<!-- 🌙 实时月相 + 🚪 访问计数（并排，月相偏左） -->
+<table align="center">
+<tr>
+<td align="right" width="130"><img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="96" alt="Moon Phase" /></td>
+<td width="48"></td>
+<td align="left" width="300"><img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="300" alt="Visitors" /></td>
+<td width="150"></td>
+</tr>
+</table>
 
 <br/>
 
@@ -66,9 +71,11 @@
 <!--END_SECTION_PROFILE_VIEWS:readme-info-->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
+**From Hello World I have written 7.8 million Lines of Code ✍️**
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
 
 <!--START_CONTRIBUTIONS:readme-info-->
+**🏆 0 Contributions in year 2026**
 <!--END_CONTRIBUTIONS:readme-info-->
 
 <br/>
@@ -79,12 +86,14 @@
 <td valign="top" width="50%">
 
 <!--START_SECTION_DAILY_COMMIT:readme-info-->
+**暂无提交记录**
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
 
 </td>
 <td valign="top" width="50%">
 
 <!--START_SECTION_WEEKLY_COMMIT:readme-info-->
+**暂无提交记录**
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
 
 </td>
