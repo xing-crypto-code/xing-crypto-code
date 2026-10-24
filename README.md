@@ -1,144 +1,240 @@
 <div align="center">
 
-<!-- 打字机 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=1200&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." width="100%" alt="Typing SVG" />
-
-<br/>
-
-<!-- 🚪 访问计数 -->
-<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="440" valign="middle" alt="Visitors" />
-
-<br/>
-
-<sub>🚪 visitors</sub>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=800&lines=Hi+there!+I'm+xing-crypto-code;English+%E2%86%92+Electronics+Engineer;AIoT+%26+Embedded+Hardware;FPV+Drone+Builder" alt="Hi there" />
 
 </div>
 
-<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
-
-<h2 align="center">🛠️ Tech Stack</h2>
-
 <div align="center">
 
-<!-- 动态技术图标 -->
-<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="80" height="80" />
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="80" height="80" />
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="80" height="80" />
-<img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="Raspberry Pi" width="80" height="80" />
-
-<br/>
-
-<!-- 静态技能图标 -->
-<img src="https://skillicons.dev/icons?i=arduino,c,cpp,python,raspberrypi,linux,git,vscode,matlab,cmake,bash&theme=light&perline=11" width="620" alt="Skill Icons" />
-
-<br/>
-<br/>
-
-<!-- 品牌图标：芯片平台 / IDE / 硬件设计 / 工具 -->
-<img src="https://cdn.simpleicons.org/espressif/E7352C" alt="Espressif ESP32" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/stmicroelectronics/03234B" alt="STMicroelectronics" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/arduino/00979D" alt="Arduino" width="58" height="58" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" alt="Visual Studio" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/eclipseide/2C2255" alt="Eclipse / STM32CubeIDE" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/platformio/F5822D" alt="PlatformIO" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/dassaultsystemes/005386" alt="SolidWorks" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/kicad/2C2C2C" alt="KiCad" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/openscad/F9D72E" alt="OpenSCAD" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/freecad/1E5AA8" alt="FreeCAD" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/git/F05032" alt="Git" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Bash" width="58" height="58" />
-<img src="https://cdn.simpleicons.org/cmake/064F8C" alt="CMake" width="58" height="58" />
-
-<br/>
-<br/>
-
-<img src="https://img.shields.io/badge/MCU-STM32-0969DA?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-<img src="https://img.shields.io/badge/RTOS-FreeRTOS-656D76?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS" />
-<img src="https://img.shields.io/badge/Protocol-CAN%20·%20I2C%20·%20SPI-0969DA?style=flat-square&logo=wire&logoColor=white" alt="Protocol" />
-<img src="https://img.shields.io/badge/PCB-JLC%20EDA-656D76?style=flat-square&logo=pcb&logoColor=white" alt="PCB" />
-<img src="https://img.shields.io/badge/3D%20CAD-SolidWorks-0969DA?style=flat-square&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
+<a href="https://github.com/xing-crypto-code">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:xing122324@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://open.spotify.com/user/31ibjrb4yllmqg4mavq4an2l7lri">
+<img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.bilibili.com">
+<img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili">
+</a>
 
 </div>
 
-<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
+<p></p>
 
-<h2 align="center">🐍 Contribution Graph</h2>
+<p align="justify">
+欢迎来到我的 GitHub 主页。我是 <b>xing-crypto-code</b>，一名从英语专业转向电子信息工程的学生，正在努力成为电控全栈嵌入式硬件工程师。我热衷 AIoT、嵌入式系统与 FPV 穿越机，从飞控固件调参到自研飞控板，一路动手实践。英语专业出身让我在中英文技术文档阅读、跨语言技术协作上有独特优势 —— 我也在做 AI 辅助翻译方向的项目。
+</p>
 
-<div align="center">
+<p align="justify">
+Electronics enthusiast on the path from an English major to a full-stack embedded hardware engineer. Passionate about AIoT, embedded systems, and FPV racing drones — from firmware tuning to designing custom flight controller boards.
+</p>
 
-<!-- 贪吃蛇 -->
+## My favorite tools and technologies ⚙️
+
+> Tools and technologies that I have worked with and am interested in
+
+<table>
+  <tr>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
+      <br>C++
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
+      <br>GitHub
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="Raspberry Pi" width="65" height="65" />
+      <br>Raspberry Pi
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=arduino&theme=light" width="48" height="48" alt="Arduino" />
+      <br>Arduino
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=c&theme=light" width="48" height="48" alt="C" />
+      <br>C
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=cmake&theme=light" width="48" height="48" alt="CMake" />
+      <br>CMake
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=bash&theme=light" width="48" height="48" alt="Bash" />
+      <br>Bash
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=linux&theme=light" width="48" height="48" alt="Linux" />
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=eclipse&theme=light" width="48" height="48" alt="Eclipse / STM32CubeIDE" />
+      <br>STM32CubeIDE
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=visualstudio&theme=light" width="48" height="48" alt="Visual Studio" />
+      <br>Visual Studio
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=vscode&theme=light" width="48" height="48" alt="VS Code" />
+      <br>VS Code
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=matlab&theme=light" width="48" height="48" alt="MATLAB" />
+      <br>MATLAB
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=git&theme=light" width="48" height="48" alt="Git" />
+      <br>Git
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=github&theme=light" width="48" height="48" alt="GitHub" />
+      <br>GitHub
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=blender&theme=light" width="48" height="48" alt="Blender" />
+      <br>Blender
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=ps&theme=light" width="48" height="48" alt="Photoshop" />
+      <br>Photoshop
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=ai&theme=light" width="48" height="48" alt="Illustrator" />
+      <br>Illustrator
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=notion&theme=light" width="48" height="48" alt="Notion" />
+      <br>Notion
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.simpleicons.org/espressif/E7352C" width="48" height="48" alt="Espressif ESP32" />
+      <br>ESP32
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.simpleicons.org/stmicroelectronics/03234B" width="48" height="48" alt="STMicroelectronics" />
+      <br>STM32
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.simpleicons.org/dassaultsystemes/005386" width="48" height="48" alt="SolidWorks" />
+      <br>SolidWorks
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.simpleicons.org/kicad/2C2C2C" width="48" height="48" alt="KiCad" />
+      <br>KiCad
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.simpleicons.org/platformio/F5822D" width="48" height="48" alt="PlatformIO" />
+      <br>PlatformIO
+    </td>
+  </tr>
+</table>
+
+## Github stats 📊
+
+<details>
+  <summary>GitHub Profile Stats 💻</summary>
+  <br/>
+    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api/?username=xing-crypto-code&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=0969DA&icon_color=0969DA" height="192px"/>
+    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xing-crypto-code&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000" height="192px"/>
+  <br/>
+</details>
+
+<details>
+  <summary>Contribution Graph 📈</summary>
+  <br/>
+
 <img src="https://raw.githubusercontent.com/xing-crypto-code/xing-crypto-code/output/github-contribution-grid-snake.svg" alt="Snake" width="100%" />
 
-</div>
+  <br/>
+</details>
 
-<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
+<details>
+  <summary>Profile Views 👁️</summary>
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=xing-crypto-code&label=PROFILE+VIEWS&style=for-the-badge&color=0969DA" alt="Profile Views">
+  <br/>
+  <br/>
+  <img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" alt="Visitors" />
+</details>
 
-<h2 align="center">📊 GitHub Stats</h2>
+<details>
+  <summary>Work Time Distribution ⏳</summary>
+  <br/>
 
-<div align="center">
-
-<!-- ⭐ GitHub Readme Info（由 Action 自动填充） -->
 <!--START_SECTION_PROFILE_VIEWS:readme-info-->
 <!--END_SECTION_PROFILE_VIEWS:readme-info-->
 
 <!--START_CONTRIBUTIONS:readme-info-->
-**🏆 86 Contributions in year 2026**
 <!--END_CONTRIBUTIONS:readme-info-->
 
 <br/>
 
-<!-- 左右并排：作息分布 | 星期分布 -->
 <table>
 <tr>
 <td valign="top" width="50%">
 
 <!--START_SECTION_DAILY_COMMIT:readme-info-->
-<b>I'm an early 🐤</b><br/><table><tbody><tr><th align="left">时段</th><th align="right">提交</th><th align="left">占比</th></tr><tr><td align="left">🌞 Morning</td><td align="right">11</td><td align="left"><code>██░░░░░░░░░░░░</code> 13.4%</td></tr><tr><td align="left">🌆 Daytime</td><td align="right">34</td><td align="left"><code>██████░░░░░░░░</code> 41.5%</td></tr><tr><td align="left">🌃 Evening</td><td align="right">37</td><td align="left"><code>██████░░░░░░░░</code> 45.1%</td></tr><tr><td align="left">🌙 Night</td><td align="right">0</td><td align="left"><code>░░░░░░░░░░░░░░</code> 0.0%</td></tr></tbody></table>
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
 
 </td>
 <td valign="top" width="50%">
 
 <!--START_SECTION_WEEKLY_COMMIT:readme-info-->
-📅 <b>Most Productive on Saturdays</b><br/><table><tbody><tr><th align="left">星期</th><th align="right">提交</th><th align="left">占比</th></tr><tr><td align="left">Monday</td><td align="right">5</td><td align="left"><code>█░░░░░░░░░░░░░</code> 6.1%</td></tr><tr><td align="left">Tuesday</td><td align="right">17</td><td align="left"><code>███░░░░░░░░░░░</code> 20.7%</td></tr><tr><td align="left">Wednesday</td><td align="right">10</td><td align="left"><code>██░░░░░░░░░░░░</code> 12.2%</td></tr><tr><td align="left">Thursday</td><td align="right">4</td><td align="left"><code>█░░░░░░░░░░░░░</code> 4.9%</td></tr><tr><td align="left">Friday</td><td align="right">14</td><td align="left"><code>██░░░░░░░░░░░░</code> 17.1%</td></tr><tr><td align="left">Saturday</td><td align="right">21</td><td align="left"><code>████░░░░░░░░░░</code> 25.6%</td></tr><tr><td align="left">Sunday</td><td align="right">11</td><td align="left"><code>██░░░░░░░░░░░░</code> 13.4%</td></tr></tbody></table>
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
 
 </td>
 </tr>
 </table>
 
-</div>
+</details>
 
-<!-- ═══════════════════════════════════════════════════════════
-     页脚 · Footer
-     ═══════════════════════════════════════════════════════════ -->
+<details>
+  <summary>Tech Focus 🎯</summary>
+  <br/>
+
+<img src="https://img.shields.io/badge/MCU-STM32-0969DA?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
+<img src="https://img.shields.io/badge/MCU-ESP32-656D76?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+<img src="https://img.shields.io/badge/RTOS-FreeRTOS-1F883D?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS" />
+<img src="https://img.shields.io/badge/Protocol-CAN%20·%20I2C%20·%20SPI-0969DA?style=flat-square&logo=wire&logoColor=white" alt="Protocol" />
+<img src="https://img.shields.io/badge/Drone-Flight%20Control-656D76?style=flat-square&logo=drone&logoColor=white" alt="Drone" />
+<img src="https://img.shields.io/badge/AIoT-Edge%20Computing-1F883D?style=flat-square&logo=internetofthings&logoColor=white" alt="AIoT" />
+
+</details>
+
+## Recent GitHub Activity ✅
+
+<details>
+  <summary>What I'm working on 🔧</summary>
+  <br/>
+
+| 项目 | 说明 |
+| :--- | :--- |
+| 🛩️ **DIY Quadcopter** | 从零组装 · 固件调参 · 自研飞控板 |
+| ⌨️ **9-Key Keyboard** | 立创 EDA 大赛参赛作品 |
+| 🤖 **XiaoZhi AI Chatbot** | 语音交互 · 端侧推理 |
+| 📚 **BabelCore** | 人机协作翻译平台 |
+
+</details>
+
+<br/>
 
 <div align="center">
 
-<br/>
-
-<sub>
-<img src="https://img.shields.io/badge/Made_with-Markdown-0969DA?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
-<img src="https://img.shields.io/badge/Theme-GitHub_Default-656D76?style=flat-square" alt="Theme" />
-<img src="https://img.shields.io/badge/Light_+_Dark-Compatible-1F883D?style=flat-square" alt="Compatible" />
-</sub>
-
-<br/>
-
-<sub>Built with passion and lots of coffee ☕</sub>
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════
-     🌙 实时月相 · 页面结尾
-     ═══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<br/>
-
-<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="150" alt="Moon Phase" />
+<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="120" alt="Moon Phase" />
 
 <br/>
 
