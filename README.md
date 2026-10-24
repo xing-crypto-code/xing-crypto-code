@@ -79,7 +79,7 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
       <br>Linux
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=eclipse&theme=light" width="48" height="48" alt="Eclipse / STM32CubeIDE" />
+        <img src="./assets/tech/cubeide.png" width="48" height="48" alt="STM32CubeIDE" />
       <br>STM32CubeIDE
     </td>
     <td align="center" width="96">
@@ -99,27 +99,49 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
       <br>Git
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=github&theme=light" width="48" height="48" alt="GitHub" />
-      <br>GitHub
+        <img src="./assets/tech/ghdesktop.png" width="48" height="48" alt="GitHub Desktop" />
+      <br>GitHub Desktop
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=blender&theme=light" width="48" height="48" alt="Blender" />
-      <br>Blender
+        <img src="./assets/tech/dsh.png" width="48" height="48" alt="DSH Desktop" />
+      <br>DSH Desktop
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=ps&theme=light" width="48" height="48" alt="Photoshop" />
-      <br>Photoshop
+        <img src="./assets/tech/keil.png" width="48" height="48" alt="Keil MDK" />
+      <br>Keil uVision
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=ai&theme=light" width="48" height="48" alt="Illustrator" />
-      <br>Illustrator
+        <img src="./assets/tech/cubemx.png" width="48" height="48" alt="STM32CubeMX" />
+      <br>STM32CubeMX
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=notion&theme=light" width="48" height="48" alt="Notion" />
-      <br>Notion
+        <img src="./assets/tech/wch.png" width="48" height="48" alt="WCH ISP Tool" />
+      <br>WCH ISP
     </td>
+    <td align="center" width="96">
+        <img src="./assets/tech/mounriver.png" width="48" height="48" alt="MounRiver Studio" />
+      <br>MounRiver
+    </td>
+    <td align="center" width="96">
+        <img src="./assets/tech/stlink.png" width="48" height="48" alt="ST-LINK Utility" />
+      <br>ST-LINK
+    </td>
+    <td align="center" width="96">
+        <img src="./assets/tech/jlc.png" width="48" height="48" alt="JLC EDA" />
+      <br>JLC EDA
+    </td>
+    <td align="center" width="96">
+        <img src="./assets/tech/solidworks.png" width="48" height="48" alt="SolidWorks" />
+      <br>SolidWorks
+    </td>
+    <td align="center" width="96">
+        <img src="./assets/tech/agents.png" width="48" height="48" alt="Agents Anywhere" />
+      <br>Agents Anywhere
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="96">
         <img src="https://cdn.simpleicons.org/espressif/E7352C" width="48" height="48" alt="Espressif ESP32" />
       <br>ESP32
@@ -127,10 +149,6 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
     <td align="center" width="96">
         <img src="https://cdn.simpleicons.org/stmicroelectronics/03234B" width="48" height="48" alt="STMicroelectronics" />
       <br>STM32
-    </td>
-    <td align="center" width="96">
-        <img src="https://cdn.simpleicons.org/dassaultsystemes/005386" width="48" height="48" alt="SolidWorks" />
-      <br>SolidWorks
     </td>
     <td align="center" width="96">
         <img src="https://cdn.simpleicons.org/kicad/2C2C2C" width="48" height="48" alt="KiCad" />
