@@ -1,13 +1,20 @@
-# GitHub Readme Info - 自动生成提交时间分布 / 语言统计 / 代码行数
-# 需要在仓库 Settings → Secrets → Actions 中添加 GH_TOKEN
-# GH_TOKEN 是 Personal Access Token，需要 repo + user 权限
+# GitHub Readme Info —— 自建版
+#
+# 为什么不用 th3c0d3br34ker/github-readme-info：该仓库的 Docker 镜像用
+# nikolaik/python-nodejs:latest（现已升级到 Python 3.12+），而它的
+# requirements.txt 钉死 matplotlib==3.3.0，该版本构建脚本调用已被移除的
+# configparser.SafeConfigParser，导致 pip install 直接失败。此外它还硬编码
+# master 分支、依赖已停运的 via.placeholder.com 和 github-contributions.now.sh。
+#
+# 本方案直接运行 .github/scripts/readme_info.py，零编译依赖（纯标准库），
+# 用 GITHUB_TOKEN 自动注入，不需要你手动创建 PAT。
 
 name: README Info Update
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 每天 UTC 0:00 运行
-  workflow_dispatch:       # 允许手动触发
+    - cron: "0 18 * * *"   # UTC 18:00 = 北京时间 02:00
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,14 +27,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate README info
-        uses: th3c0d3br34ker/github-readme-info@master
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          python-version: "3.11"
+
+      - name: Generate README info
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
           TIMEZONE: "Asia/Shanghai"
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_PROFILE_VIEWS: "False"
-          SHOW_DAILY_COMMIT: "True"
-          SHOW_WEEKLY_COMMIT: "True"
-          SHOW_LANGUAGE: "True"
-          SHOW_TOTAL_CONTRIBUTIONS: "True"
+          PYTHONIOENCODING: "utf-8"
+          PYTHONUTF8: "1"
+        run: python .github/scripts/readme_info.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "README 无变化，跳过提交"
+          else
+            git add README.md
+            git commit -m "📊 Auto update README info"
+            git push
+          fi
