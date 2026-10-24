@@ -12,21 +12,19 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=1200&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." width="100%" alt="Typing SVG" />
 
 <br/>
-
-<!-- ⭐ HyperWeave profile 卡片（浅色 porcelain 版，满宽填充） -->
-<img src="https://hyperweave.app/v1/card/xing-crypto-code/primer.static?variant=porcelain" width="100%" alt="HyperWeave Profile Card" />
-
 <br/>
 
-<!-- ⭐ HyperWeave 指标条（同系列浅色，满宽对齐卡片） -->
-<img src="https://hyperweave.app/v1/strip/xing-crypto-code/primer.static?variant=porcelain&data=gh:xing-crypto-code/xing-crypto-code.stars,gh:xing-crypto-code/xing-crypto-code.forks,gh:xing-crypto-code/xing-crypto-code.contributors" width="100%" alt="HyperWeave Strip" />
+<!-- ⭐ Moe Counter 访问计数 -->
+<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" alt="Visitors" />
+<br/>
+<sub>🚪 visitors</sub>
 
 </div>
 
 <!-- ⭐ HyperWeave 分隔线（primer/aura · 钴蓝细线 + 柔光） -->
 <img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
-## 🛠️ Tech Stack
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <div align="center">
 
@@ -67,7 +65,7 @@
 
 <img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="26" align="absmiddle"/> About Me
+<h2 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="26" align="absmiddle"/> About Me</h2>
 
 <div align="center">
 
@@ -96,7 +94,7 @@
 
 <img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
-## 📊 GitHub Stats
+<h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
 
@@ -157,7 +155,7 @@
 
 <img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
-## 🐍 Contribution Graph
+<h2 align="center">🐍 Contribution Graph</h2>
 
 <div align="center">
 
@@ -176,7 +174,7 @@
 
 <img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
-### 🎵 Music while coding
+<h2 align="center">🎵 Music while coding</h2>
 
 <div align="center">
 
@@ -187,23 +185,6 @@
 <a href="https://open.spotify.com/track/6zQ1OjnGS4h5MhBK6ZOY6y">
 <img src="https://img.shields.io/badge/Flower_Dance-DJ_Okawari-656D76?style=for-the-badge&logo=spotify&logoColor=white" alt="Flower Dance" />
 </a>
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════
-     访问计数 · Moe Counter
-     ═══════════════════════════════════════════════════════════ -->
-
-<br/>
-
-<div align="center">
-
-<!-- ⭐ Moe Counter 访问计数 -->
-<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" alt="Visitors" />
-
-<br/>
-
-<sub>🚪 visitors</sub>
 
 </div>
 
