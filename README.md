@@ -110,18 +110,46 @@
 <!--END_SECTION_PROFILE_VIEWS:readme-info-->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
+**From Hello World I have written 8.5 million Lines of Code ✍️**
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
 
 <!--START_CONTRIBUTIONS:readme-info-->
+**🏆 79 Contributions in year 2026**
 <!--END_CONTRIBUTIONS:readme-info-->
 
 <!--START_SECTION_DAILY_COMMIT:readme-info-->
+**I'm a night 🦉**
+
+| 时段 | 提交 | 占比 |
+| :--- | ---: | :--- |
+| 🌞 Morning | 11 | `███░░░░░░░░░░░░░░░░░░░` 15.1% |
+| 🌆 Daytime | 25 | `████████░░░░░░░░░░░░░░` 34.2% |
+| 🌃 Evening | 37 | `███████████░░░░░░░░░░░` 50.7% |
+| 🌙 Night | 0 | `░░░░░░░░░░░░░░░░░░░░░░` 0.0% |
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
 
 <!--START_SECTION_WEEKLY_COMMIT:readme-info-->
+📅 **I'm Most Productive on Tuesdays**
+
+| 星期 | 提交 | 占比 |
+| :--- | ---: | :--- |
+| Monday | 5 | `█░░░░░░░░░░░░░░░░░░░░░` 6.8% |
+| Tuesday | 17 | `█████░░░░░░░░░░░░░░░░░` 23.3% |
+| Wednesday | 10 | `███░░░░░░░░░░░░░░░░░░░` 13.7% |
+| Thursday | 4 | `█░░░░░░░░░░░░░░░░░░░░░` 5.5% |
+| Friday | 14 | `████░░░░░░░░░░░░░░░░░░` 19.2% |
+| Saturday | 12 | `████░░░░░░░░░░░░░░░░░░` 16.4% |
+| Sunday | 11 | `███░░░░░░░░░░░░░░░░░░░` 15.1% |
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
 
 <!--START_SECTION_LANGUAGE:readme-info-->
+**My 💖 languages C**
+
+| 语言 | 仓库 | 占比 |
+| :--- | ---: | :--- |
+| C | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
+| C++ | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
+| Python | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
 <!--END_SECTION_LANGUAGE:readme-info-->
 
 </div>
