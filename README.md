@@ -34,6 +34,16 @@
 Electronics enthusiast on the path from an English major to a full-stack embedded hardware engineer. Passionate about AIoT, embedded systems, and FPV racing drones — from firmware tuning to designing custom flight controller boards.
 </p>
 
+<div align="center">
+
+<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="420" alt="Visitors" />
+
+<br/>
+
+<sub>🚪 visitors</sub>
+
+</div>
+
 ## My favorite tools and technologies ⚙️
 
 > Tools and technologies that I have worked with and am interested in
@@ -184,19 +194,14 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
   <summary>Profile Views 👁️</summary>
   <br/>
   <img src="https://komarev.com/ghpvc/?username=xing-crypto-code&label=PROFILE+VIEWS&style=for-the-badge&color=0969DA" alt="Profile Views">
-  <br/>
-  <br/>
-  <img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" alt="Visitors" />
 </details>
 
 <details>
   <summary>Work Time Distribution ⏳</summary>
   <br/>
 
-<!--START_SECTION_PROFILE_VIEWS:readme-info-->
-<!--END_SECTION_PROFILE_VIEWS:readme-info-->
-
 <!--START_CONTRIBUTIONS:readme-info-->
+<b>🏆 65 Contributions in year 2026</b>
 <!--END_CONTRIBUTIONS:readme-info-->
 
 <br/>
@@ -206,12 +211,14 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
 <td valign="top" width="50%">
 
 <!--START_SECTION_DAILY_COMMIT:readme-info-->
+<b>I'm an early 🐤</b><br/><table><tbody><tr><th align="left">时段</th><th align="right">提交</th><th align="left">占比</th></tr><tr><td align="left">🌞 Morning</td><td align="right">11</td><td align="left"><code>██░░░░░░░░░░░░</code> 12.4%</td></tr><tr><td align="left">🌆 Daytime</td><td align="right">41</td><td align="left"><code>██████░░░░░░░░</code> 46.1%</td></tr><tr><td align="left">🌃 Evening</td><td align="right">37</td><td align="left"><code>██████░░░░░░░░</code> 41.6%</td></tr><tr><td align="left">🌙 Night</td><td align="right">0</td><td align="left"><code>░░░░░░░░░░░░░░</code> 0.0%</td></tr></tbody></table>
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
 
 </td>
 <td valign="top" width="50%">
 
 <!--START_SECTION_WEEKLY_COMMIT:readme-info-->
+📅 <b>Most Productive on Saturdays</b><br/><table><tbody><tr><th align="left">星期</th><th align="right">提交</th><th align="left">占比</th></tr><tr><td align="left">Monday</td><td align="right">5</td><td align="left"><code>█░░░░░░░░░░░░░</code> 5.6%</td></tr><tr><td align="left">Tuesday</td><td align="right">17</td><td align="left"><code>███░░░░░░░░░░░</code> 19.1%</td></tr><tr><td align="left">Wednesday</td><td align="right">10</td><td align="left"><code>██░░░░░░░░░░░░</code> 11.2%</td></tr><tr><td align="left">Thursday</td><td align="right">4</td><td align="left"><code>█░░░░░░░░░░░░░</code> 4.5%</td></tr><tr><td align="left">Friday</td><td align="right">14</td><td align="left"><code>██░░░░░░░░░░░░</code> 15.7%</td></tr><tr><td align="left">Saturday</td><td align="right">28</td><td align="left"><code>████░░░░░░░░░░</code> 31.5%</td></tr><tr><td align="left">Sunday</td><td align="right">11</td><td align="left"><code>██░░░░░░░░░░░░</code> 12.4%</td></tr></tbody></table>
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
 
 </td>

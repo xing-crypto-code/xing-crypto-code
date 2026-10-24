@@ -22,6 +22,7 @@ import os
 import re
 import sys
 import json
+import time
 from collections import Counter
 from datetime import datetime, timezone as dt_timezone
 from urllib.request import Request, urlopen
@@ -57,27 +58,44 @@ def _headers():
     return h
 
 
-def rest(path):
-    req = Request(API + path, headers=_headers())
-    with urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def rest(path, retries=2):
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            req = Request(API + path, headers=_headers())
+            with urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except Exception as exc:  # 含 SSL / 超时 / 连接重置
+            last = exc
+            if attempt < retries:
+                time.sleep(1.5 * (attempt + 1))
+    raise last
 
 
-def graphql(query, variables=None):
+def graphql(query, variables=None, retries=2):
+    """POST 到 GraphQL，对 SSL 中断/超时做退避重试。"""
     payload = {"query": query}
     if variables:
         payload["variables"] = variables
-    req = Request(
-        GRAPHQL,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={**_headers(), "Content-Type": "application/json"},
-        method="POST",
-    )
-    with urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    if "errors" in data:
-        raise RuntimeError(f"GraphQL: {data['errors']}")
-    return data["data"]
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            req = Request(
+                GRAPHQL,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={**_headers(), "Content-Type": "application/json"},
+                method="POST",
+            )
+            with urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            if "errors" in data:
+                raise RuntimeError(f"GraphQL: {data['errors']}")
+            return data["data"]
+        except Exception as exc:
+            last = exc
+            if attempt < retries:
+                time.sleep(1.5 * (attempt + 1))
+    raise last
 
 
 # ────────────────────────── 格式化 ──────────────────────────────
@@ -229,6 +247,18 @@ def fetch_total_contributions(user):
         cal = data["user"]["contributionsCollection"]["contributionCalendar"]
         return cal["totalContributions"], datetime.now().year
     except Exception as exc:
+        print(f"  ! GraphQL 取年度贡献失败（{exc}），尝试 REST", file=sys.stderr)
+
+    # REST 回退：用 events 粗略统计今年推送数，避免整体失败
+    try:
+        year = datetime.now().year
+        events = rest(f"/users/{user}/events/public?per_page=100")
+        total = sum(
+            1 for e in events
+            if e.get("type") == "PushEvent"
+        )
+        return total, year
+    except Exception as exc:
         print(f"  ! 取年度贡献失败: {exc}", file=sys.stderr)
         return 0, datetime.now().year
 
@@ -236,7 +266,10 @@ def fetch_total_contributions(user):
 # ────────────────────────── 生成区块 ────────────────────────────
 
 def block_contrib(total, year):
-    return f"**🏆 {fmt_int(total)} Contributions in year {year}**\n"
+    # 放在 HTML 块内，Markdown 的 ** 不解析，必须用 <b>
+    if not total:
+        return "<b>🏆 Contributions data unavailable</b>\n"
+    return f"<b>🏆 {fmt_int(total)} Contributions in year {year}</b>\n"
 
 
 def block_daily(dates):
