@@ -176,7 +176,7 @@
 
 <img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
-## 🎵 Music while coding
+### 🎵 Music while coding
 
 <div align="center">
 
@@ -191,6 +191,23 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════
+     访问计数 · Moe Counter
+     ═══════════════════════════════════════════════════════════ -->
+
+<br/>
+
+<div align="center">
+
+<!-- ⭐ Moe Counter 访问计数 -->
+<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" alt="Visitors" />
+
+<br/>
+
+<sub>🚪 visitors</sub>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
      页脚 · Footer
      ═══════════════════════════════════════════════════════════ -->
 
@@ -199,12 +216,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=170&section=footer&text=KEEP%20BUILDING&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=70&desc=Thanks%20for%20visiting&descAlignY=86&descSize=14" width="100%" alt="footer" />
 
 <div align="center">
-
-<!-- ⭐ Moe Counter 访问计数 -->
-<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" alt="Visitors" />
-
-<br/>
-<br/>
 
 <sub>
 <img src="https://img.shields.io/badge/Made_with-Markdown-0969DA?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
