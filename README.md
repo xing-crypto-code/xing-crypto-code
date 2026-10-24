@@ -2,7 +2,7 @@
      头部横幅 · Header Banner
      ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=190&section=header&text=xing-crypto-code&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=30&desc=Electronics%20Engineer%20%C2%B7%20AIoT%20%26%20Drone&descAlignY=52&descSize=17" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=190&section=header&text=xing-crypto-code&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=30&desc=Electronics%20Engineer%20%C2%B7%20AIoT%20%C2%B7%20Drone&descAlignY=52&descSize=17" width="100%" alt="header" />
 
 <div align="center">
 
@@ -20,35 +20,6 @@
 
 <!-- ⭐ HyperWeave 指标条 -->
 <img src="https://hyperweave.app/v1/strip/xing-crypto-code/chrome.static?data=gh:xing-crypto-code/xing-crypto-code.stars,gh:xing-crypto-code/xing-crypto-code.forks,gh:xing-crypto-code/xing-crypto-code.contributors" width="450" alt="HyperWeave Strip" />
-
-</div>
-
-<img src="https://hyperweave.app/v1/divider/band/chrome.static" width="100%" alt="divider" />
-
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="26" align="absmiddle"/> About Me
-
-<div align="center">
-
-**电子爱好者 · Electronics Enthusiast**
-
-努力向电控全栈嵌入式硬件工程师靠拢
-
-*Striving to become a full-stack embedded hardware engineer in electronic control*
-
-<br/>
-
-<img src="https://img.shields.io/badge/English-CET6%20High%20Score-0969DA?style=flat-square&logo=bookstack&logoColor=white" alt="CET6" />
-<img src="https://img.shields.io/badge/TEM4-Good-0969DA?style=flat-square&logo=bookstack&logoColor=white" alt="TEM4" />
-<img src="https://img.shields.io/badge/Major-Electronics%20Engineering-656D76?style=flat-square&logo=academia&logoColor=white" alt="Major" />
-<img src="https://img.shields.io/badge/Status-Learning%20RTOS-1F883D?style=flat-square&logo=freertos&logoColor=white" alt="RTOS" />
-
-<br/>
-<br/>
-
-<!-- 🌙 实时月相 · Moon.svg -->
-<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="80" alt="Moon Phase" />
-<br/>
-<sub>🌙 real-time moon phase · 实时月相</sub>
 
 </div>
 
@@ -90,6 +61,35 @@
 <img src="https://img.shields.io/badge/PCB-JLC%20EDA-656D76?style=flat-square&logo=pcb&logoColor=white" alt="PCB" />
 <img src="https://img.shields.io/badge/3D%20CAD-SolidWorks-0969DA?style=flat-square&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
 <img src="https://img.shields.io/badge/AI-LLM%20Agent-656D76?style=flat-square&logo=openai&logoColor=white" alt="AI Agent" />
+
+</div>
+
+<img src="https://hyperweave.app/v1/divider/band/chrome.static" width="100%" alt="divider" />
+
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="26" align="absmiddle"/> About Me
+
+<div align="center">
+
+**电子爱好者 · Electronics Enthusiast**
+
+努力向电控全栈嵌入式硬件工程师靠拢
+
+*Striving to become a full-stack embedded hardware engineer in electronic control*
+
+<br/>
+
+<img src="https://img.shields.io/badge/English-CET6%20High%20Score-0969DA?style=flat-square&logo=bookstack&logoColor=white" alt="CET6" />
+<img src="https://img.shields.io/badge/TEM4-Good-0969DA?style=flat-square&logo=bookstack&logoColor=white" alt="TEM4" />
+<img src="https://img.shields.io/badge/Major-Electronics%20Engineering-656D76?style=flat-square&logo=academia&logoColor=white" alt="Major" />
+<img src="https://img.shields.io/badge/Status-Learning%20RTOS-1F883D?style=flat-square&logo=freertos&logoColor=white" alt="RTOS" />
+
+<br/>
+<br/>
+
+<!-- 🌙 实时月相 · Moon.svg -->
+<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="80" alt="Moon Phase" />
+<br/>
+<sub>🌙 real-time moon phase · 实时月相</sub>
 
 </div>
 
