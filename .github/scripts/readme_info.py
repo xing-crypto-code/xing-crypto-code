@@ -233,50 +233,7 @@ def fetch_total_contributions(user):
         return 0, datetime.now().year
 
 
-def fetch_lines_of_code(user):
-    """统计公开非 fork 仓库的代码行数。
-
-    用 code_frequency 的 (additions - deletions) 净和：它按周记录真实 diff，
-    净和 ≈ 当前代码规模。
-
-    不能用 /languages 的字节数换算——GitHub 把所有文本文件都算作语言字节，
-    包括生成的大 SVG、JSON、锁文件等，实测会虚高到 700 万行以上。
-    同时排除个人 profile 仓库（内容是 README 和自动生成的 SVG，不算代码）。
-    """
-    total = 0
-    try:
-        repos = rest(f"/users/{user}/repos?per_page=100&type=owner")
-    except HTTPError as exc:
-        print(f"  ! 列出仓库失败: {exc}", file=sys.stderr)
-        return 0
-
-    for repo in repos:
-        if repo.get("fork"):
-            continue
-        name = repo["name"]
-        # 跳过 profile 仓库本身
-        if name.lower() == user.lower():
-            continue
-        owner = repo["owner"]["login"]
-        try:
-            stats = rest(f"/repos/{owner}/{name}/stats/code_frequency")
-            if not stats:
-                continue
-            for week in stats:
-                total += week[1] - week[2]
-        except HTTPError as exc:
-            if exc.code not in (403, 404):
-                print(f"  ! {name}: {exc}", file=sys.stderr)
-        except Exception as exc:
-            print(f"  ! {name}: {exc}", file=sys.stderr)
-    return max(0, total)
-
-
 # ────────────────────────── 生成区块 ────────────────────────────
-
-def block_loc(total):
-    return f"**From Hello World I have written {fmt_compact(total)} Lines of Code ✍️**\n"
-
 
 def block_contrib(total, year):
     return f"**🏆 {fmt_int(total)} Contributions in year {year}**\n"
@@ -389,11 +346,8 @@ def main():
     print(f"  · 提交样本: {len(dates)} 条")
     contrib, year = fetch_total_contributions(USERNAME)
     print(f"  · 年度贡献: {contrib}")
-    loc = fetch_lines_of_code(USERNAME)
-    print(f"  · 代码净增行数: {loc}")
 
     bodies = {
-        "SECTION_LINES_OF_CODE": block_loc(loc),
         "CONTRIBUTIONS": block_contrib(contrib, year),
         "SECTION_DAILY_COMMIT": block_daily(dates),
         "SECTION_WEEKLY_COMMIT": block_weekly(dates),

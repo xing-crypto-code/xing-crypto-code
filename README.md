@@ -5,15 +5,10 @@
 
 <br/>
 
-<!-- 🌙 实时月相 + 🚪 访问计数（并排，月相偏左） -->
-<table align="center">
-<tr>
-<td align="right" width="130"><img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="96" alt="Moon Phase" /></td>
-<td width="48"></td>
-<td align="left" width="300"><img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="300" alt="Visitors" /></td>
-<td width="150"></td>
-</tr>
-</table>
+<!-- 🌙 实时月相 + 🚪 访问计数（并排，无边框） -->
+<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="130" valign="middle" alt="Moon Phase" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="440" valign="middle" alt="Visitors" />
 
 <br/>
 
@@ -69,10 +64,6 @@
 <!-- ⭐ GitHub Readme Info（由 Action 自动填充） -->
 <!--START_SECTION_PROFILE_VIEWS:readme-info-->
 <!--END_SECTION_PROFILE_VIEWS:readme-info-->
-
-<!--START_SECTION_LINES_OF_CODE:readme-info-->
-**From Hello World I have written 8.5 million Lines of Code ✍️**
-<!--END_SECTION_LINES_OF_CODE:readme-info-->
 
 <!--START_CONTRIBUTIONS:readme-info-->
 **🏆 86 Contributions in year 2026**
