@@ -9,21 +9,22 @@
 <br/>
 
 <!-- 打字机 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=680&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=680&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." alt="Typing SVG" />
 
 <br/>
 
-<!-- ⭐ HyperWeave profile 卡片（实时 GitHub 数据） -->
-<img src="https://hyperweave.app/v1/card/xing-crypto-code/chrome.static?variant=horizon" width="470" alt="HyperWeave Profile Card" />
+<!-- ⭐ HyperWeave profile 卡片（浅色 porcelain 版，与主题一致） -->
+<img src="https://hyperweave.app/v1/card/xing-crypto-code/primer.static?variant=porcelain" width="470" alt="HyperWeave Profile Card" />
 
 <br/>
 
-<!-- ⭐ HyperWeave 指标条 -->
-<img src="https://hyperweave.app/v1/strip/xing-crypto-code/chrome.static?data=gh:xing-crypto-code/xing-crypto-code.stars,gh:xing-crypto-code/xing-crypto-code.forks,gh:xing-crypto-code/xing-crypto-code.contributors" width="450" alt="HyperWeave Strip" />
+<!-- ⭐ HyperWeave 指标条（同系列浅色，宽度与卡片对齐） -->
+<img src="https://hyperweave.app/v1/strip/xing-crypto-code/primer.static?variant=porcelain&data=gh:xing-crypto-code/xing-crypto-code.stars,gh:xing-crypto-code/xing-crypto-code.forks,gh:xing-crypto-code/xing-crypto-code.contributors" width="470" alt="HyperWeave Strip" />
 
 </div>
 
-<img src="https://hyperweave.app/v1/divider/band/chrome.static" width="100%" alt="divider" />
+<!-- ⭐ HyperWeave 分隔线（primer/aura · 钴蓝细线 + 柔光） -->
+<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
 ## 🛠️ Tech Stack
 
@@ -64,7 +65,7 @@
 
 </div>
 
-<img src="https://hyperweave.app/v1/divider/band/chrome.static" width="100%" alt="divider" />
+<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="26" align="absmiddle"/> About Me
 
@@ -93,7 +94,7 @@
 
 </div>
 
-<img src="https://hyperweave.app/v1/divider/band/chrome.static" width="100%" alt="divider" />
+<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
 ## 📊 GitHub Stats
 
@@ -154,7 +155,7 @@
 
 </div>
 
-<img src="https://hyperweave.app/v1/divider/band/chrome.static" width="100%" alt="divider" />
+<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
 ## 🐍 Contribution Graph
 
@@ -173,7 +174,7 @@
 
 </div>
 
-<img src="https://hyperweave.app/v1/divider/band/chrome.static" width="100%" alt="divider" />
+<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
 
 ## 🎵 Music while coding
 
