@@ -110,46 +110,46 @@
 <!--END_SECTION_PROFILE_VIEWS:readme-info-->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
-**From Hello World I have written 8.5 million Lines of Code ✍️**
+**From Hello World I have written 1.3 thousand Lines of Code ✍️**
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
 
 <!--START_CONTRIBUTIONS:readme-info-->
-**🏆 79 Contributions in year 2026**
+**🏆 0 Contributions in year 2026**
 <!--END_CONTRIBUTIONS:readme-info-->
 
 <!--START_SECTION_DAILY_COMMIT:readme-info-->
-**I'm a night 🦉**
+**I'm an early 🐤**
 
 | 时段 | 提交 | 占比 |
 | :--- | ---: | :--- |
-| 🌞 Morning | 11 | `███░░░░░░░░░░░░░░░░░░░` 15.1% |
-| 🌆 Daytime | 25 | `████████░░░░░░░░░░░░░░` 34.2% |
-| 🌃 Evening | 37 | `███████████░░░░░░░░░░░` 50.7% |
+| 🌞 Morning | 8 | `███████░░░░░░░░░░░░░░░` 29.6% |
+| 🌆 Daytime | 7 | `██████░░░░░░░░░░░░░░░░` 25.9% |
+| 🌃 Evening | 12 | `██████████░░░░░░░░░░░░` 44.4% |
 | 🌙 Night | 0 | `░░░░░░░░░░░░░░░░░░░░░░` 0.0% |
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
 
 <!--START_SECTION_WEEKLY_COMMIT:readme-info-->
-📅 **I'm Most Productive on Tuesdays**
+📅 **I'm Most Productive on Fridays**
 
 | 星期 | 提交 | 占比 |
 | :--- | ---: | :--- |
-| Monday | 5 | `█░░░░░░░░░░░░░░░░░░░░░` 6.8% |
-| Tuesday | 17 | `█████░░░░░░░░░░░░░░░░░` 23.3% |
-| Wednesday | 10 | `███░░░░░░░░░░░░░░░░░░░` 13.7% |
-| Thursday | 4 | `█░░░░░░░░░░░░░░░░░░░░░` 5.5% |
-| Friday | 14 | `████░░░░░░░░░░░░░░░░░░` 19.2% |
-| Saturday | 12 | `████░░░░░░░░░░░░░░░░░░` 16.4% |
-| Sunday | 11 | `███░░░░░░░░░░░░░░░░░░░` 15.1% |
+| Monday | 2 | `██░░░░░░░░░░░░░░░░░░░░` 7.4% |
+| Tuesday | 0 | `░░░░░░░░░░░░░░░░░░░░░░` 0.0% |
+| Wednesday | 7 | `██████░░░░░░░░░░░░░░░░` 25.9% |
+| Thursday | 0 | `░░░░░░░░░░░░░░░░░░░░░░` 0.0% |
+| Friday | 8 | `███████░░░░░░░░░░░░░░░` 29.6% |
+| Saturday | 7 | `██████░░░░░░░░░░░░░░░░` 25.9% |
+| Sunday | 3 | `██░░░░░░░░░░░░░░░░░░░░` 11.1% |
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
 
 <!--START_SECTION_LANGUAGE:readme-info-->
-**My 💖 languages C**
+**My 💖 languages Python**
 
 | 语言 | 仓库 | 占比 |
 | :--- | ---: | :--- |
-| C | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
-| C++ | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
 | Python | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
+| C++ | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
+| C | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
 <!--END_SECTION_LANGUAGE:readme-info-->
 
 </div>

@@ -234,15 +234,14 @@ def fetch_total_contributions(user):
 
 
 def fetch_lines_of_code(user):
-    """累加公开非 fork 仓库最近一年的净增行数。
+    """统计公开非 fork 仓库的代码规模（当前快照行数）。
 
-    code_frequency 返回每周 [timestamp, additions, deletions]。
-    注意：不加时间窗口时，仓库的初始提交会把整个代码库算作「新增」，
-    导致行数虚高几个数量级，所以这里只取最近 52 周。
+    不累加 code_frequency 的 additions-deletions：
+    该端点会把仓库首次导入时的整个代码库记为「一周新增」，
+    导致结果虚高几个数量级（实测 850 万行）。
+    改为取每个仓库当前的语言字节数换算行数，更贴近真实规模。
     """
     total = 0
-    cutoff = datetime.now(dt_timezone.utc).timestamp() - 52 * 7 * 86400
-
     try:
         repos = rest(f"/users/{user}/repos?per_page=100&type=owner")
     except HTTPError as exc:
@@ -254,20 +253,16 @@ def fetch_lines_of_code(user):
             continue
         owner, name = repo["owner"]["login"], repo["name"]
         try:
-            stats = rest(f"/repos/{owner}/{name}/stats/code_frequency")
-            if not stats:
-                continue
-            for week in stats:
-                week_ts, additions, deletions = week[0], week[1], week[2]
-                if week_ts < cutoff:
-                    continue
-                total += additions - deletions
+            langs = rest(f"/repos/{owner}/{name}/languages")
         except HTTPError as exc:
             if exc.code not in (403, 404):
                 print(f"  ! {name}: {exc}", file=sys.stderr)
-        except Exception as exc:
-            print(f"  ! {name}: {exc}", file=sys.stderr)
-    return max(0, total)
+            continue
+        except Exception:
+            continue
+        # 代码平均每行约 40 字节（含缩进与空行）
+        total += int(sum(langs.values()) / 40)
+    return total
 
 
 # ────────────────────────── 生成区块 ────────────────────────────
