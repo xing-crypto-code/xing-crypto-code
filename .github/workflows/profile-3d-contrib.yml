@@ -9,6 +9,9 @@ on:
     - cron: '0 0 * * *'  # 每天 UTC 0:00 自动运行
   workflow_dispatch:       # 允许手动触发
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
