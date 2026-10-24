@@ -9,17 +9,17 @@
 <br/>
 
 <!-- 打字机 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=680&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=1200&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." width="100%" alt="Typing SVG" />
 
 <br/>
 
-<!-- ⭐ HyperWeave profile 卡片（浅色 porcelain 版，与主题一致） -->
-<img src="https://hyperweave.app/v1/card/xing-crypto-code/primer.static?variant=porcelain" width="470" alt="HyperWeave Profile Card" />
+<!-- ⭐ HyperWeave profile 卡片（浅色 porcelain 版，满宽填充） -->
+<img src="https://hyperweave.app/v1/card/xing-crypto-code/primer.static?variant=porcelain" width="100%" alt="HyperWeave Profile Card" />
 
 <br/>
 
-<!-- ⭐ HyperWeave 指标条（同系列浅色，宽度与卡片对齐） -->
-<img src="https://hyperweave.app/v1/strip/xing-crypto-code/primer.static?variant=porcelain&data=gh:xing-crypto-code/xing-crypto-code.stars,gh:xing-crypto-code/xing-crypto-code.forks,gh:xing-crypto-code/xing-crypto-code.contributors" width="470" alt="HyperWeave Strip" />
+<!-- ⭐ HyperWeave 指标条（同系列浅色，满宽对齐卡片） -->
+<img src="https://hyperweave.app/v1/strip/xing-crypto-code/primer.static?variant=porcelain&data=gh:xing-crypto-code/xing-crypto-code.stars,gh:xing-crypto-code/xing-crypto-code.forks,gh:xing-crypto-code/xing-crypto-code.contributors" width="100%" alt="HyperWeave Strip" />
 
 </div>
 
