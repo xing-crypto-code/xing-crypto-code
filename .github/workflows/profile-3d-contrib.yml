@@ -1,12 +1,11 @@
-# GitHub Action: 生成 3D 贡献日历 SVG
-# 放到仓库 .github/workflows/profile-3d-contrib.yml
-# 需要 Settings → Actions → General → "Read and write permissions"
+# 生成 3D 贡献日历 SVG
+# 输出到 profile-3d-contrib/，由 README 的 <picture> 标签引用
 
 name: GitHub 3D Contribution Calendar
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0:00 自动运行
+    - cron: '0 18 * * *'  # 每天 UTC 18:00 (JST 03:00) 自动运行
   workflow_dispatch:       # 允许手动触发
 
 permissions:
@@ -15,33 +14,22 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate 3D contrib calendar
+    name: generate-github-profile-3d-contrib
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Generate 3D contrib image
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: xing-crypto-code
-          MAX_REPOS: 100
-          SETTING_JSON: |
-            {
-              "coloring": true,
-              "max-legend": 10,
-              "theme": "default",
-              "background": "transparent"
-            }
+          USERNAME: ${{ github.repository_owner }}
 
       - name: Commit & Push
         run: |
-          if git diff --quiet; then
-            echo "No changes to commit"
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add profile-3d-contrib/
-            git commit -m ":chart_with_upwards_trend: auto-update 3D contribution calendar"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated 3D contribution calendar"; then
             git push
           fi
