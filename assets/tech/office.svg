@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-label="Microsoft Office">
+  <rect width="80" height="80" rx="16" fill="#F2F2F0"/>
+  <rect x="0.5" y="0.5" width="79" height="79" rx="15.5" fill="none" stroke="#000" stroke-opacity=".12"/>
+  <rect x="14" y="22" width="20" height="26" rx="2" fill="#185ABD"/>
+  <rect x="18" y="26" width="20" height="26" rx="2" fill="#2B7CD3"/>
+  <rect x="22" y="30" width="20" height="26" rx="2" fill="#41A5EE"/>
+  <rect x="34" y="40" width="24" height="24" rx="3" fill="#217346"/>
+  <path d="M38 46 L46 58 M46 46 L38 58" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+  <rect x="48" y="18" width="24" height="20" rx="3" fill="#B7472A"/>
+  <rect x="52" y="22" width="16" height="4" rx="1" fill="#fff"/>
+  <rect x="52" y="28" width="16" height="4" rx="1" fill="#fff"/>
+</svg>

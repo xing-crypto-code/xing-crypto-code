@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-label="JLC EDA">
+  <rect width="80" height="80" rx="16" fill="#1B8C3E"/>
+  <rect x="0.5" y="0.5" width="79" height="79" rx="15.5" fill="none" stroke="#000" stroke-opacity=".18"/>
+  <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round">
+    <path d="M20 26 H60"/>
+    <path d="M28 26 V44 M40 26 V52 M52 26 V38"/>
+    <path d="M18 50 L30 56 L42 48 L54 58 L62 54"/>
+    <circle cx="28" cy="44" r="3"/>
+    <circle cx="40" cy="52" r="3"/>
+    <circle cx="52" cy="38" r="3"/>
+  </g>
+  <text x="40" y="70" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle">JLC EDA</text>
+</svg>

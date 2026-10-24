@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-label="STM32CubeMX">
+  <rect width="80" height="80" rx="16" fill="#03234B"/>
+  <rect x="0.5" y="0.5" width="79" height="79" rx="15.5" fill="none" stroke="#3CB4E5" stroke-opacity=".35"/>
+  <g fill="none" stroke="#3CB4E5" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M40 16 L61 28 L61 52 L40 64 L19 52 L19 28 Z"/>
+    <path d="M40 16 L40 40 M40 40 L61 52 M40 40 L19 52"/>
+  </g>
+  <text x="40" y="47" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">MX</text>
+</svg>

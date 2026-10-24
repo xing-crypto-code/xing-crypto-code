@@ -20,25 +20,105 @@
 
 <div align="center">
 
-<!-- 动态技术图标 -->
-<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="80" height="80" />
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="80" height="80" />
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="80" height="80" />
-<img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="Raspberry Pi" width="80" height="80" />
+<!-- ═══ 芯片平台 Chip Platforms ═══ -->
+<sub><b>芯片平台 · Chip Platforms</b></sub>
 
 <br/>
 
-<!-- 静态技能图标 -->
-<img src="https://skillicons.dev/icons?i=arduino,c,cpp,python,raspberrypi,linux,git,vscode,matlab,cmake,bash&theme=light&perline=11" width="620" alt="Skill Icons" />
+<img src="https://cdn.simpleicons.org/stmicroelectronics/03234B" alt="STMicroelectronics" width="64" height="64" />
+&nbsp;
+<img src="./assets/tech/esp32.svg" alt="ESP32 Espressif" width="80" height="80" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/espressif/E7352C" alt="Espressif" width="64" height="64" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" alt="Raspberry Pi" width="64" height="64" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/arduino/00979D" alt="Arduino" width="64" height="64" />
+&nbsp;
+<img src="./assets/tech/wch.svg" alt="WCH" width="80" height="80" />
 
 <br/>
 <br/>
 
-<img src="https://img.shields.io/badge/MCU-STM32-0969DA?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-<img src="https://img.shields.io/badge/RTOS-FreeRTOS-656D76?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS" />
-<img src="https://img.shields.io/badge/Protocol-CAN%20·%20I2C%20·%20SPI-0969DA?style=flat-square&logo=wire&logoColor=white" alt="Protocol" />
-<img src="https://img.shields.io/badge/PCB-JLC%20EDA-656D76?style=flat-square&logo=pcb&logoColor=white" alt="PCB" />
-<img src="https://img.shields.io/badge/3D%20CAD-SolidWorks-0969DA?style=flat-square&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
+<!-- ═══ 开发环境 IDE & Toolchain ═══ -->
+<sub><b>开发环境 · IDE &amp; Toolchain</b></sub>
+
+<br/>
+
+<img src="./assets/tech/keil.svg" alt="Keil MDK" width="80" height="80" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/eclipseide/2C2255" alt="STM32CubeIDE" width="64" height="64" />
+&nbsp;
+<img src="./assets/tech/cubemx.svg" alt="STM32CubeMX" width="80" height="80" />
+&nbsp;
+<img src="./assets/tech/stlink.svg" alt="ST-LINK Utility" width="80" height="80" />
+&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" alt="Visual Studio" width="64" height="64" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/platformio/F5822D" alt="PlatformIO" width="64" height="64" />
+
+<br/>
+<br/>
+
+<!-- ═══ 语言 Languages ═══ -->
+<sub><b>语言 · Languages</b></sub>
+
+<br/>
+
+<img src="https://cdn.simpleicons.org/cplusplus/00599C" alt="C++" width="58" height="58" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/c/A8B9CC" alt="C" width="58" height="58" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" width="58" height="58" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Bash" width="58" height="58" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/cmake/064F8C" alt="CMake" width="58" height="58" />
+
+<br/>
+<br/>
+
+<!-- ═══ 硬件设计 Hardware Design ═══ -->
+<sub><b>硬件设计 · Hardware Design</b></sub>
+
+<br/>
+
+<img src="./assets/tech/jlc.svg" alt="JLC EDA" width="80" height="80" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/dassaultsystemes/005386" alt="SolidWorks" width="64" height="64" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/kicad/2C2C2C" alt="KiCad" width="64" height="64" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/openscad/F9D72E" alt="OpenSCAD" width="64" height="64" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/freecad/1E5AA8" alt="FreeCAD" width="64" height="64" />
+
+<br/>
+<br/>
+
+<!-- ═══ 协作与工具 Collaboration ═══ -->
+<sub><b>协作与工具 · Collaboration</b></sub>
+
+<br/>
+
+<img src="https://cdn.simpleicons.org/git/F05032" alt="Git" width="58" height="58" />
+&nbsp;
+<img src="./assets/tech/ghdesktop.svg" alt="GitHub Desktop" width="80" height="80" />
+&nbsp;
+<img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" width="58" height="58" />
+&nbsp;
+<img src="./assets/tech/dsh.svg" alt="DSH Desktop" width="80" height="80" />
+&nbsp;
+<img src="./assets/tech/office.svg" alt="Microsoft Office" width="80" height="80" />
+
+<br/>
+<br/>
+
+<!-- ═══ 技术方向 Focus ═══ -->
+<img src="https://img.shields.io/badge/RTOS-FreeRTOS-0969DA?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS" />
+<img src="https://img.shields.io/badge/Protocol-CAN%20·%20I2C%20·%20SPI-656D76?style=flat-square&logo=wire&logoColor=white" alt="Protocol" />
+<img src="https://img.shields.io/badge/AIoT-Edge%20Computing-0969DA?style=flat-square&logo=internetofthings&logoColor=white" alt="AIoT" />
+<img src="https://img.shields.io/badge/Drone-Flight%20Control-656D76?style=flat-square&logo=drone&logoColor=white" alt="Drone" />
 
 </div>
 

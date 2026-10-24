@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-label="ESP32 Espressif">
+  <rect width="80" height="80" rx="16" fill="#E7352C"/>
+  <rect x="0.5" y="0.5" width="79" height="79" rx="15.5" fill="none" stroke="#000" stroke-opacity=".18"/>
+  <g fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round">
+    <path d="M40 16 C26 16 18 26 18 38 C18 50 27 62 40 62 C53 62 62 50 62 38 C62 26 54 16 40 16 Z"/>
+    <path d="M32 30 L32 46 M48 30 L48 46"/>
+    <path d="M32 38 L48 38"/>
+  </g>
+  <text x="40" y="74" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" fill="#fff" text-anchor="middle">ESP32</text>
+</svg>
