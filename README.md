@@ -2,64 +2,22 @@
      头部横幅 · Header Banner
      ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=190&section=header&text=xing-crypto-code&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=30&desc=Electronics%20Engineer%20%C2%B7%20AIoT%20%C2%B7%20Drone&descAlignY=52&descSize=17" width="100%" alt="header" />
-
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=170&section=header&text=xing-crypto-code&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Electronics%20Engineer%20%C2%B7%20AIoT%20%C2%B7%20Drone&descAlignY=54&descSize=16" width="76%" alt="header" />
 
 <br/>
 
 <!-- 打字机 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=1200&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." width="100%" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=0969DA&center=true&vCenter=true&width=1200&lines=Hello%2C+World!;English+%E2%86%92+Electronics+Engineer;AIoT+Developer;Drone+Enthusiast;Always+learning..." width="100%" alt="Typing SVG" />
 
 <br/>
 <br/>
 
-<!-- ⭐ Moe Counter 访问计数 -->
-<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" alt="Visitors" />
+<!-- ⭐ Moe Counter 访问计数（放大） -->
+<img src="https://moe-counter-vercel-gamma.vercel.app/get/@xing-crypto-code?theme=moebooru" width="320" alt="Visitors" />
 <br/>
 <sub>🚪 visitors</sub>
-
-</div>
-
-<!-- ⭐ HyperWeave 分隔线（primer/aura · 钴蓝细线 + 柔光） -->
-<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
-
-<h2 align="center">🛠️ Tech Stack</h2>
-
-<div align="center">
-
-<!-- ⭐ HyperWeave 图标（圆形 / 方形） -->
-<img src="https://hyperweave.app/v1/icon/github/chrome.static?shape=circle&variant=horizon" width="46" alt="GitHub" />
-<img src="https://hyperweave.app/v1/icon/python/chrome.static?shape=circle&variant=horizon" width="46" alt="Python" />
-<img src="https://hyperweave.app/v1/icon/cplusplus/chrome.static?shape=circle&variant=horizon" width="46" alt="C++" />
-<img src="https://hyperweave.app/v1/icon/rust/chrome.static?shape=square&variant=moth" width="46" alt="Rust" />
-<img src="https://hyperweave.app/v1/icon/docker/chrome.static?shape=square&variant=lightning" width="46" alt="Docker" />
-<img src="https://hyperweave.app/v1/icon/linux/chrome.static?shape=square&variant=graphite" width="46" alt="Linux" />
-
-<br/>
-
-<!-- 动态技术图标 -->
-<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="52" height="52" />
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="52" height="52" />
-<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="52" height="52" />
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="52" height="52" />
-<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="52" height="52" />
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="52" height="52" />
-<img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="Raspberry Pi" width="52" height="52" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=arduino,c,raspberrypi,linux,git,vscode,matlab&theme=light" alt="Skill Icons" />
-
-<br/>
-<br/>
-
-<img src="https://img.shields.io/badge/MCU-STM32-0969DA?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-<img src="https://img.shields.io/badge/RTOS-FreeRTOS-656D76?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS" />
-<img src="https://img.shields.io/badge/Protocol-CAN%20·%20I2C%20·%20SPI-0969DA?style=flat-square&logo=wire&logoColor=white" alt="Protocol" />
-<img src="https://img.shields.io/badge/PCB-JLC%20EDA-656D76?style=flat-square&logo=pcb&logoColor=white" alt="PCB" />
-<img src="https://img.shields.io/badge/3D%20CAD-SolidWorks-0969DA?style=flat-square&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
-<img src="https://img.shields.io/badge/AI-LLM%20Agent-656D76?style=flat-square&logo=openai&logoColor=white" alt="AI Agent" />
 
 </div>
 
@@ -86,9 +44,37 @@
 <br/>
 
 <!-- 🌙 实时月相 · Moon.svg -->
-<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="80" alt="Moon Phase" />
+<img src="https://moon-svg.minung.dev/moon.svg?theme=ray" width="100" alt="Moon Phase" />
 <br/>
 <sub>🌙 real-time moon phase · 实时月相</sub>
+
+</div>
+
+<img src="https://hyperweave.app/v1/divider/aura/primer.static?variant=porcelain" width="100%" alt="divider" />
+
+<h2 align="center">🛠️ Tech Stack</h2>
+
+<div align="center">
+
+<!-- 动态技术图标（放大） -->
+<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="80" height="80" />
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="80" height="80" />
+<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="80" height="80" />
+<img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="Raspberry Pi" width="80" height="80" />
+
+<br/>
+
+<!-- 静态技能图标（放大，只保留实际会用的） -->
+<img src="https://skillicons.dev/icons?i=arduino,c,cpp,python,raspberrypi,linux,git,vscode,matlab,cmake,bash&theme=light&perline=11" width="620" alt="Skill Icons" />
+
+<br/>
+<br/>
+
+<img src="https://img.shields.io/badge/MCU-STM32-0969DA?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
+<img src="https://img.shields.io/badge/RTOS-FreeRTOS-656D76?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS" />
+<img src="https://img.shields.io/badge/Protocol-CAN%20·%20I2C%20·%20SPI-0969DA?style=flat-square&logo=wire&logoColor=white" alt="Protocol" />
+<img src="https://img.shields.io/badge/PCB-JLC%20EDA-656D76?style=flat-square&logo=pcb&logoColor=white" alt="PCB" />
+<img src="https://img.shields.io/badge/3D%20CAD-SolidWorks-0969DA?style=flat-square&logo=dassaultsystemes&logoColor=white" alt="SolidWorks" />
 
 </div>
 
@@ -98,58 +84,39 @@
 
 <div align="center">
 
-<!-- ⭐ HyperWeave 徽章（实时数据） -->
-<img src="https://hyperweave.app/v1/badge/STARS/primer.static?data=gh:xing-crypto-code/xing-crypto-code.stars" alt="Stars" />
-
-<br/>
-<br/>
-
 <!-- ⭐ GitHub Readme Info（由 Action 自动填充） -->
 <!--START_SECTION_PROFILE_VIEWS:readme-info-->
 <!--END_SECTION_PROFILE_VIEWS:readme-info-->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
-**From Hello World I have written 1.3 thousand Lines of Code ✍️**
+**From Hello World I have written 7.8 million Lines of Code ✍️**
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
 
 <!--START_CONTRIBUTIONS:readme-info-->
 **🏆 0 Contributions in year 2026**
 <!--END_CONTRIBUTIONS:readme-info-->
 
-<!--START_SECTION_DAILY_COMMIT:readme-info-->
-**I'm an early 🐤**
+<br/>
 
-| 时段 | 提交 | 占比 |
-| :--- | ---: | :--- |
-| 🌞 Morning | 8 | `███████░░░░░░░░░░░░░░░` 29.6% |
-| 🌆 Daytime | 7 | `██████░░░░░░░░░░░░░░░░` 25.9% |
-| 🌃 Evening | 12 | `██████████░░░░░░░░░░░░` 44.4% |
-| 🌙 Night | 0 | `░░░░░░░░░░░░░░░░░░░░░░` 0.0% |
+<!-- 左右并排：作息分布 | 星期分布 -->
+<table>
+<tr>
+<td valign="top" width="50%">
+
+<!--START_SECTION_DAILY_COMMIT:readme-info-->
+**I'm an early 🐤**<br/><table><tbody><tr><th align="left">时段</th><th align="right">提交</th><th align="left">占比</th></tr><tr><td align="left">🌞 Morning</td><td align="right">11</td><td align="left"><code>██░░░░░░░░░░░░░░</code> 15.5%</td></tr><tr><td align="left">🌆 Daytime</td><td align="right">30</td><td align="left"><code>███████░░░░░░░░░</code> 42.3%</td></tr><tr><td align="left">🌃 Evening</td><td align="right">30</td><td align="left"><code>███████░░░░░░░░░</code> 42.3%</td></tr><tr><td align="left">🌙 Night</td><td align="right">0</td><td align="left"><code>░░░░░░░░░░░░░░░░</code> 0.0%</td></tr></tbody></table>
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
 
-<!--START_SECTION_WEEKLY_COMMIT:readme-info-->
-📅 **I'm Most Productive on Fridays**
+</td>
+<td valign="top" width="50%">
 
-| 星期 | 提交 | 占比 |
-| :--- | ---: | :--- |
-| Monday | 2 | `██░░░░░░░░░░░░░░░░░░░░` 7.4% |
-| Tuesday | 0 | `░░░░░░░░░░░░░░░░░░░░░░` 0.0% |
-| Wednesday | 7 | `██████░░░░░░░░░░░░░░░░` 25.9% |
-| Thursday | 0 | `░░░░░░░░░░░░░░░░░░░░░░` 0.0% |
-| Friday | 8 | `███████░░░░░░░░░░░░░░░` 29.6% |
-| Saturday | 7 | `██████░░░░░░░░░░░░░░░░` 25.9% |
-| Sunday | 3 | `██░░░░░░░░░░░░░░░░░░░░` 11.1% |
+<!--START_SECTION_WEEKLY_COMMIT:readme-info-->
+📅 **I'm Most Productive on Tuesdays**<br/><table><tbody><tr><th align="left">星期</th><th align="right">提交</th><th align="left">占比</th></tr><tr><td align="left">Monday</td><td align="right">5</td><td align="left"><code>█░░░░░░░░░░░░░░░</code> 7.0%</td></tr><tr><td align="left">Tuesday</td><td align="right">17</td><td align="left"><code>████░░░░░░░░░░░░</code> 23.9%</td></tr><tr><td align="left">Wednesday</td><td align="right">10</td><td align="left"><code>██░░░░░░░░░░░░░░</code> 14.1%</td></tr><tr><td align="left">Thursday</td><td align="right">4</td><td align="left"><code>█░░░░░░░░░░░░░░░</code> 5.6%</td></tr><tr><td align="left">Friday</td><td align="right">7</td><td align="left"><code>██░░░░░░░░░░░░░░</code> 9.9%</td></tr><tr><td align="left">Saturday</td><td align="right">17</td><td align="left"><code>████░░░░░░░░░░░░</code> 23.9%</td></tr><tr><td align="left">Sunday</td><td align="right">11</td><td align="left"><code>██░░░░░░░░░░░░░░</code> 15.5%</td></tr></tbody></table>
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
 
-<!--START_SECTION_LANGUAGE:readme-info-->
-**My 💖 languages Python**
-
-| 语言 | 仓库 | 占比 |
-| :--- | ---: | :--- |
-| Python | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
-| C++ | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
-| C | 1 | `███████░░░░░░░░░░░░░░░` 33.3% |
-<!--END_SECTION_LANGUAGE:readme-info-->
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -161,14 +128,6 @@
 
 <!-- 贪吃蛇 -->
 <img src="https://raw.githubusercontent.com/xing-crypto-code/xing-crypto-code/output/github-contribution-grid-snake.svg" alt="Snake" width="100%" />
-
-<br/>
-
-<!-- ⭐ 3D 贡献日历（GitHub Profile 3D Contrib） -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xing-crypto-code/xing-crypto-code/main/profile-3d-contrib/profile-night-green.svg" />
-  <img src="https://raw.githubusercontent.com/xing-crypto-code/xing-crypto-code/main/profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Calendar" width="100%" />
-</picture>
 
 </div>
 
@@ -192,11 +151,13 @@
      页脚 · Footer
      ═══════════════════════════════════════════════════════════ -->
 
+<div align="center">
+
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=170&section=footer&text=KEEP%20BUILDING&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=70&desc=Thanks%20for%20visiting&descAlignY=86&descSize=14" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0969DA,100:58A6FF&height=150&section=footer&text=KEEP%20BUILDING&fontSize=30&fontColor=ffffff&animation=twinkling&fontAlignY=72&desc=Thanks%20for%20visiting&descAlignY=88&descSize=13" width="76%" alt="footer" />
 
-<div align="center">
+<br/>
 
 <sub>
 <img src="https://img.shields.io/badge/Made_with-Markdown-0969DA?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />

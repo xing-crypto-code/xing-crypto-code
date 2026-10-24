@@ -296,11 +296,24 @@ def block_daily(dates):
     late = buckets["🌃 Evening"] + buckets["🌙 Night"]
     title = "I'm an early 🐤" if early >= late else "I'm a night 🦉"
 
-    rows = ["| 时段 | 提交 | 占比 |", "| :--- | ---: | :--- |"]
+    rows = []
     for name, count in buckets.items():
         pct = round(count / total * 100, 1)
-        rows.append(f"| {name} | {count} | `{bar(pct)}` {pct}% |")
-    return f"**{title}**\n\n" + "\n".join(rows) + "\n"
+        rows.append(
+            "<tr>"
+            f'<td align="left">{name}</td>'
+            f'<td align="right">{count}</td>'
+            f'<td align="left"><code>{bar(pct, 16)}</code> {pct}%</td>'
+            "</tr>"
+        )
+    table = (
+        '<table><tbody>'
+        '<tr><th align="left">时段</th><th align="right">提交</th>'
+        '<th align="left">占比</th></tr>'
+        + "".join(rows)
+        + "</tbody></table>"
+    )
+    return f"**{title}**<br/>{table}"
 
 
 def block_weekly(dates):
@@ -309,28 +322,28 @@ def block_weekly(dates):
     counter = Counter(to_local(d).strftime("%A") for d in dates)
     total = sum(counter.values())
     if total == 0:
-        return "**暂无提交记录**\n"
+        return "**暂无提交记录**"
 
     best = max(names, key=lambda n: counter[n])
-    rows = ["| 星期 | 提交 | 占比 |", "| :--- | ---: | :--- |"]
+    rows = []
     for name in names:
         count = counter[name]
         pct = round(count / total * 100, 1)
-        rows.append(f"| {name} | {count} | `{bar(pct)}` {pct}% |")
-    return f"📅 **I'm Most Productive on {best}s**\n\n" + "\n".join(rows) + "\n"
-
-
-def block_languages(counter):
-    total = sum(counter.values())
-    if total == 0:
-        return "**暂无语言数据**\n"
-
-    rows = ["| 语言 | 仓库 | 占比 |", "| :--- | ---: | :--- |"]
-    for name, count in counter.most_common():
-        pct = round(count / total * 100, 1)
-        rows.append(f"| {name} | {count} | `{bar(pct)}` {pct}% |")
-    top = counter.most_common(1)[0][0]
-    return f"**My 💖 languages {top}**\n\n" + "\n".join(rows) + "\n"
+        rows.append(
+            "<tr>"
+            f'<td align="left">{name}</td>'
+            f'<td align="right">{count}</td>'
+            f'<td align="left"><code>{bar(pct, 16)}</code> {pct}%</td>'
+            "</tr>"
+        )
+    table = (
+        '<table><tbody>'
+        '<tr><th align="left">星期</th><th align="right">提交</th>'
+        '<th align="left">占比</th></tr>'
+        + "".join(rows)
+        + "</tbody></table>"
+    )
+    return f"📅 **I'm Most Productive on {best}s**<br/>{table}"
 
 
 # ────────────────────────── 写入 README ─────────────────────────
@@ -365,8 +378,6 @@ def main():
     print("\n采集数据...")
     dates = fetch_commits(USERNAME)
     print(f"  · 提交样本: {len(dates)} 条")
-    langs = fetch_languages(USERNAME)
-    print(f"  · 语言种类: {len(langs)}")
     contrib, year = fetch_total_contributions(USERNAME)
     print(f"  · 年度贡献: {contrib}")
     loc = fetch_lines_of_code(USERNAME)
@@ -377,7 +388,6 @@ def main():
         "CONTRIBUTIONS": block_contrib(contrib, year),
         "SECTION_DAILY_COMMIT": block_daily(dates),
         "SECTION_WEEKLY_COMMIT": block_weekly(dates),
-        "SECTION_LANGUAGE": block_languages(langs),
     }
 
     with open(README_PATH, "r", encoding="utf-8") as fh:
