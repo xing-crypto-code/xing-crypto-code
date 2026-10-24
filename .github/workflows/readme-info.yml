@@ -1,0 +1,33 @@
+# GitHub Readme Info - 自动生成提交时间分布 / 语言统计 / 代码行数
+# 需要在仓库 Settings → Secrets → Actions 中添加 GH_TOKEN
+# GH_TOKEN 是 Personal Access Token，需要 repo + user 权限
+
+name: README Info Update
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 UTC 0:00 运行
+  workflow_dispatch:       # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README info
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate README info
+        uses: th3c0d3br34ker/github-readme-info@master
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TIMEZONE: "Asia/Shanghai"
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_DAILY_COMMIT: "True"
+          SHOW_WEEKLY_COMMIT: "True"
+          SHOW_LANGUAGE: "True"
+          SHOW_TOTAL_CONTRIBUTIONS: "True"
