@@ -27,7 +27,7 @@
 <p></p>
 
 <p align="justify">
-欢迎来到我的 GitHub 主页。我是 <b>xing-crypto-code</b>，一名从英语专业转向电子信息工程的学生，正在努力成为电控全栈嵌入式硬件工程师。
+欢迎来到我的 GitHub 主页。我是Xing Xing，一名从英语专业转向电子信息工程的学生，正在努力成为电控全栈嵌入式硬件工程师。
 </p>
 
 <p align="justify">
