@@ -240,6 +240,15 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
 
 </details>
 
+## Featured projects / 精选项目 🚀
+
+| 项目 | 说明 |
+| :--- | :--- |
+| [🛩️ drone](https://github.com/xing-crypto-code/drone) | FPV 无人机相关资料与配置 |
+| [🧪 lab-report-generator](https://github.com/xing-crypto-code/lab-report-generator) | 实验报告批量生成工具（Python） |
+| [📚 notes](https://github.com/xing-crypto-code/notes) | 双语学习笔记归档（按课程整理） |
+| [🎓 Students_Info_Sys](https://github.com/xing-crypto-code/Students_Info_Sys) | 学生信息管理系统 |
+
 ## Recent GitHub Activity ✅
 
 <details>
