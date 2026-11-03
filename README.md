@@ -4,15 +4,6 @@
 
 </div>
 
-<!-- ascii-sharks: animated ocean rendered from the real ascii-sharks engine -->
-<div align="center">
-
-<a href="https://github.com/stackedlol/ascii-sharks" title="ascii-sharks — fish and sharks drawn as ASCII on a canvas">
-<img src="https://raw.githubusercontent.com/xing-crypto-code/xing-crypto-code/main/assets/ascii-sharks.svg" width="100%" alt="ASCII sharks and schools of fish swimming" />
-</a>
-
-</div>
-
 <div align="center">
 
 <a href="https://github.com/xing-crypto-code">
