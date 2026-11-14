@@ -51,19 +51,19 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
 <table>
   <tr>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=cpp&theme=light" width="48" height="48" alt="C++" />
+        <img src="./assets/tech/cpp.svg" width="48" height="48" alt="C++" />
       <br>C++
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=python&theme=light" width="48" height="48" alt="Python" />
+        <img src="./assets/tech/python.svg" width="48" height="48" alt="Python" />
       <br>Python
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=github&theme=light" width="48" height="48" alt="GitHub" />
+        <img src="./assets/tech/github.svg" width="48" height="48" alt="GitHub" />
       <br>GitHub
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=raspberrypi&theme=light" width="48" height="48" alt="Raspberry Pi" />
+        <img src="./assets/tech/raspberrypi.svg" width="48" height="48" alt="Raspberry Pi" />
       <br>Raspberry Pi
     </td>
     <td align="center" width="96">
