@@ -1,0 +1,23 @@
+{
+  "skillicons": [
+    "cpp",
+    "python",
+    "github",
+    "raspberrypi",
+    "arduino",
+    "c",
+    "cmake",
+    "bash",
+    "linux",
+    "visualstudio",
+    "vscode",
+    "matlab",
+    "git"
+  ],
+  "simpleicons": {
+    "espressif": "E7352C",
+    "stmicroelectronics": "03234B",
+    "kicad": "2C2C2C",
+    "platformio": "F5822D"
+  }
+}
