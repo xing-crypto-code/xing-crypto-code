@@ -51,19 +51,19 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
 <table>
   <tr>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=cpp&theme=light" width="48" height="48" alt="C++" />
       <br>C++
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=python&theme=light" width="48" height="48" alt="Python" />
       <br>Python
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=github&theme=light" width="48" height="48" alt="GitHub" />
       <br>GitHub
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/raspberrypi-icon.svg" alt="Raspberry Pi" width="65" height="65" />
+        <img src="https://skillicons.dev/icons?i=raspberrypi&theme=light" width="48" height="48" alt="Raspberry Pi" />
       <br>Raspberry Pi
     </td>
     <td align="center" width="96">
