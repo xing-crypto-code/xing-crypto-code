@@ -176,8 +176,8 @@ Electronics enthusiast on the path from an English major to a full-stack embedde
 <details>
   <summary>GitHub Profile Stats 💻</summary>
   <br/>
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api/?username=xing-crypto-code&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=0969DA&icon_color=0969DA" height="192px"/>
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xing-crypto-code&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000" height="192px"/>
+    <img alt="GitHub Stats" src="https://github-readme-stats-one.vercel.app/api/?username=xing-crypto-code&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=0969DA&icon_color=0969DA" height="192px"/>
+    <img alt="Top Languages" src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=xing-crypto-code&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000" height="192px"/>
   <br/>
 </details>
 
