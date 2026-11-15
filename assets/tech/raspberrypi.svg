@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <style>
-    @keyframes flt-raspberrypi { 0%, 100% { transform: translateY(7px); } 50% { transform: translateY(-7px); } }
+    @keyframes flt-raspberrypi { 0%, 100% { transform: translateY(14px); } 50% { transform: translateY(-14px); } }
     .flt-raspberrypi { animation: flt-raspberrypi 3.0s ease-in-out infinite; animation-delay: 1.2s; }
     @media (prefers-reduced-motion: reduce) { .flt-raspberrypi { animation: none; } }
   </style>
   <g class="flt-raspberrypi">
-    <g transform="translate(15.36,15.36) scale(0.88)">
+    <g transform="translate(20.00,20.00) scale(0.84375)">
       <g transform="translate(0, 0)">
           <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#F4F2ED"/>

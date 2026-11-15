@@ -27,9 +27,14 @@ from pathlib import Path
 
 # Motion tuning. Staggered starts keep the grid from pulsing in lockstep,
 # which reads as mechanical; an offset drift feels alive.
-FLOAT_PX = 7
+FLOAT_PX = 14
 PERIOD_S = 3.0
-SCALE = 0.88
+
+# The artwork has to shrink as the float grows, otherwise the peak of the
+# bounce gets clipped by the 256 viewBox. Derive the scale from the motion
+# instead of hard-coding it so the two can never disagree.
+MARGIN = 6  # breathing room left at the peak of each bounce
+SCALE = (256 - 2 * (FLOAT_PX + MARGIN)) / 256
 INSET = (256 - 256 * SCALE) / 2  # centres the shrunk artwork
 
 # Every icon in the README table, in reading order, cycling through a few
